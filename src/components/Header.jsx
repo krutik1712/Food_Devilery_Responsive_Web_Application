@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div
             className="h-[80vh] sm:h-[90vh] md:h-[80vh] mt-28 mb-20 mx-auto relative bg-cover bg-center rounded-3xl"
-            style={{ backgroundImage: `url('/src/assets/frontend_assets/header_img.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+            style={{ backgroundImage: `url('src/assets/frontend_assets/header_img.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="absolute bottom-10 left-6 sm:left-10 md:left-24 w-[80%] sm:w-[70%] md:w-[75%] lg:w-[65%] text-white" style={{ animation: "fadeIn 3s" }}>
                 <h1 className="text-[10vw] sm:text-[8vw] md:text-[7.5vw] lg:text-[6vw] leading-[10vw] sm:leading-[8vw] md:leading-[8vw] lg:leading-[6vw] md:w-[100%] font-bold">
